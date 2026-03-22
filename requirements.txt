@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pymongo
+SQLAlchemy
+psycopg2-binary
+snowflake-connector-python
+databricks-sql-connector
