@@ -42,3 +42,4 @@ def get_sql_data_endpoint():
     This endpoint retrieves data from a generic SQL database using SQLAlchemy.
     """
     return get_sql_data()
+
