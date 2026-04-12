@@ -32,4 +32,5 @@ def get_sql_data(table_name: str, limit: int = 100) -> list | dict:
             # Convert rows to list of dictionaries
             return [dict(row._mapping) for row in result]
     except Exception as e:
+        print(f"Error querying table '{table_name}': {str(e)}")
         return {'error': str(e)}
